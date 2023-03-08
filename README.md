@@ -30,20 +30,28 @@ The following **additional** features are implemented:
 
 Here's a walkthrough of implemented user stories:
 
-<img src='http://i.imgur.com/link/to/your/gif/file.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+*The file is too big and I can not make it smaller as I wont be able to show all the features. Use the provided link to the gif.*
+
+https://i.imgur.com/H5ugkED.gif
+
+Screenshots:
+
+<img width="358" alt="Screen Shot 2023-03-07 at 10 55 16 PM" src="https://user-images.githubusercontent.com/82910305/223615865-9326e0f2-284b-4ad5-9562-09f56dd6f98b.png">
+
+<img width="354" alt="Screen Shot 2023-03-07 at 10 55 26 PM" src="https://user-images.githubusercontent.com/82910305/223615729-b1618769-9ac5-478d-8a72-bace69f072b4.png">
+ 
 
 <!-- Replace this with whatever GIF tool you used! -->
-GIF created with ...  
-<!-- Recommended tools:
-[Kap](https://getkap.co/) for macOS
-[ScreenToGif](https://www.screentogif.com/) for Windows
-[peek](https://github.com/phw/peek) for Linux. -->
+Imgur  
+
 
 ## Notes
 
 Describe any challenges encountered while building the app.
 
 Due to not being able to use any starter code I face compatability issues as my machine is out of date.
+Gif too large for ReadME.
+
 
 ## License
 
