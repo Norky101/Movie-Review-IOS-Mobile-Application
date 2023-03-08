@@ -7,20 +7,24 @@
 
 import UIKit
 
+
 // changed class name from TracksViewController
-class MainViewController:   UIViewController, UITableViewDataSource {
+class MainViewController:   UIViewController, UITableViewDataSource
+{
     
     override func viewWillAppear(_ animated: Bool)
     {
         super.viewWillAppear(animated)
         // Get the index path for the current selected table view row (if exists)
-        if let indexPath = tableView.indexPathForSelectedRow {
+        if let indexPath = tableView.indexPathForSelectedRow
+        {
 
             // Deselect the row at the corresponding index path
             tableView.deselectRow(at: indexPath, animated: true)
         }
     }
-    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int
+    {
         return movies.count //returns amount of movies we put in MovieCell file
         
     }
@@ -66,19 +70,20 @@ class MainViewController:   UIViewController, UITableViewDataSource {
 
         // Get the cell that triggered the segue
         if let cell = sender as? UITableViewCell,
+           
            // Get the index path of the cell from the table view
            let indexPath = tableView.indexPath(for: cell),
+           
            // Get the detail view controller
            let detailViewController = segue.destination as? DetailViewController
         {
 
             // Use the index path to get the associated track
-            let track = movies[indexPath.row]
+            let movie = movies[indexPath.row]
 
             // Set the track on the detail view controller
             detailViewController.movie = movie
         }
-        
         
     }
 
