@@ -4,7 +4,7 @@ Submitted by: **Noah Pilkington**
 
 **Flixster ** is a movie browsing app that allows you to see a detail overview of movies.
 
-Time spent: **10** hours spent in total
+Time spent: **20** hours spent in total
 
 ## Required Features
 
@@ -43,7 +43,7 @@ GIF created with ...
 
 Describe any challenges encountered while building the app.
 
-Tough project with very confusing instructions. Issues with global variables and viewcontrollers.
+Due to not being able to use any starter code I face compatability issues as my machine is out of date.
 
 ## License
 
