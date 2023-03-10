@@ -2,9 +2,9 @@
 
 Submitted by: **Noah Pilkington**
 
-**Flixster ** is a movie browsing app that allows you to see a detail overview of movies.
+**Flixster ** is a movie browsing app that allows you to see a detailled overview of movies.
 
-Time spent: **20** hours spent in total
+Time spent: **13** hours spent in total
 
 ## Required Features
 
