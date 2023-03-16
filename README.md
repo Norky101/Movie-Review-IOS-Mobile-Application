@@ -101,7 +101,12 @@ The following **additional** features are implemented:
 
 Here's a walkthrough of implemented user stories:
 
-<img src='http://i.imgur.com/link/to/your/gif/file.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+*The file is too big and I can not make it smaller as I wont be able to show all the features. Use the provided link to the gif.*
+
+<img src="https://i.imgur.com/EgXNp9s.gif" title='Video Walkthrough' width='' alt='Video Walkthrough' />
+https://i.imgur.com/EgXNp9s.gif
+https://i.imgur.com/EgXNp9s.gif
+![Project2-2-1](https://user-images.githubusercontent.com/82910305/225534336-cf8c9060-0281-40b1-a66e-f07aeeb9f787.gif)
 
 <!-- Replace this with whatever GIF tool you used! -->
 GIF created with ...  
