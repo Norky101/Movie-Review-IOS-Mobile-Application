@@ -20,12 +20,12 @@ class MovieCell: UITableViewCell {
     func configure(with movie: Movie)
     {
         movieLabel.text = movie.original_title
-        
         overviewLabel.text = movie.overview
 
         // Load image async via Nuke library image loading helper method
         
-        Nuke.loadImage(with: movie.poster_path, into: posterLabel)  // check if posterLabel is correct
+       // Nuke.loadImage(with: movie.poster_path, into: posterLabel)  // old hardcoded
+        Nuke.loadImage(with:URL(string:"https://image.tmdb.org/t/p/w500" + movie.poster_path.absoluteString)!, into: posterLabel)
     }
 
     override func awakeFromNib()
@@ -33,12 +33,9 @@ class MovieCell: UITableViewCell {
         super.awakeFromNib()
         // Initialization code
     }
-
     override func setSelected(_ selected: Bool, animated: Bool)
     {
         super.setSelected(selected, animated: animated)
-
         // Configure the view for the selected state
     }
-
 }

@@ -9,7 +9,6 @@ import Foundation
 import UIKit
 import Nuke
 
-
 class DetailViewController: UIViewController {
 
     @IBOutlet weak var movieNameLabel: UILabel!
@@ -18,8 +17,6 @@ class DetailViewController: UIViewController {
     @IBOutlet weak var vote_countLabel: UILabel!
     @IBOutlet weak var vote_averageLabel: UILabel!
     @IBOutlet weak var popularityLabel: UILabel!
-
-
 
     // TODO: Pt 1 - Add a track property
 
@@ -32,19 +29,16 @@ class DetailViewController: UIViewController {
 
         // TODO: Pt 1 - Configure the UI elements with the passed in movie
         
-        Nuke.loadImage(with: movie.poster_path, into: posterImageLabel)
+        //Nuke.loadImage(with: movie.poster_path, into: posterImageLabel)
 
             // Set labels with the associated track JSON values.
         movieNameLabel.text = movie.original_title
         overviewTextLabel.text = movie.overview
-        vote_countLabel.text = movie.vote_count + " Vote Count"
-        vote_averageLabel.text = movie.vote_average + " Vote Average"
-        popularityLabel.text = movie.popularity + " Popularity"
-           
-
-        
+        vote_countLabel.text = "Vote Count " + String (movie.vote_count ); // converted to a string
+        vote_averageLabel.text = "Vote Average " + String (movie.vote_average);   // converted to a string
+        popularityLabel.text = "Popularity " + String (movie.popularity);     // converted to a string
+        let imageURL = URL(string:"https://image.tmdb.org/t/p/w500\(movie.poster_path.absoluteString)")!
+        Nuke.loadImage(with: imageURL, into: posterImageLabel)
     }
 
-
-
-}
+} //end of class
