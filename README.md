@@ -35,22 +35,10 @@ Here's a walkthrough of implemented user stories:
 https://i.imgur.com/H5ugkED.gif
 
 Screenshots:
-
-<img width="358" alt="Screen Shot 2023-03-07 at 10 55 16 PM" src="https://user-images.githubusercontent.com/82910305/223615865-9326e0f2-284b-4ad5-9562-09f56dd6f98b.png">
-
-<img width="354" alt="Screen Shot 2023-03-07 at 10 55 26 PM" src="https://user-images.githubusercontent.com/82910305/223615729-b1618769-9ac5-478d-8a72-bace69f072b4.png">
- 
-
-<!-- Replace this with whatever GIF tool you used! -->
-Imgur  
-
-
-## Notes
-
-Describe any challenges encountered while building the app.
-
-Due to not being able to use any starter code I face compatability issues as my machine is out of date.
-Gif too large for ReadME.
+<img width="751" alt="Screen Shot 2023-03-17 at 7 41 27 PM" src="https://user-images.githubusercontent.com/82910305/226070216-517ba5f0-21bb-404d-837f-6388a4ba4aac.png">
+<img width="350" alt="Screen Shot 2023-03-17 at 7 41 10 PM" src="https://user-images.githubusercontent.com/82910305/226070222-76b67baf-fb40-41f3-a57a-bfb9e82f2155.png">
+<img width="351" alt="Screen Shot 2023-03-17 at 7 40 58 PM" src="https://user-images.githubusercontent.com/82910305/226070223-aa187f52-615e-4f22-9fda-44604e82dd9f.png">
+<img width="361" alt="Screen Shot 2023-03-17 at 7 40 39 PM" src="https://user-images.githubusercontent.com/82910305/226070226-253a9f39-cad1-450e-9a3a-de9e996c538c.png">
 
 
 ## License
@@ -115,10 +103,9 @@ GIF created with ...
 [ScreenToGif](https://www.screentogif.com/) for Windows
 [peek](https://github.com/phw/peek) for Linux. -->
 
+
 ## Notes
 
-Describe any challenges encountered while building the app.
-Could not get Posters VC to display movie posters. Followed instrction and have no errors. Will solve in the future.
 
 ## License
 
